@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.flex-main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.side-nav {
+    width: 20vw;
+    height: 90vh;
+    background-color: #000;
+    color: #fff;
+}
+
+.logo-name {
+    padding: 15px 10px;
+}
+
+.opt-nav {
+    padding: 20px 15px 20px 0;
+}
+
+.flex-nav {
+    display: flex;
+    width: 50px;
+    align-items: center;
+}
+
+.select {
+    border-left: #ADFF2F solid 3px;
+}
+
+.nav-img {
+    width: 100%;
+    padding: 5px 15px;
+    filter: opacity(0.5);
+    cursor: pointer;
+}
+
+.select-img {
+    filter: opacity(1);
+}
+
+.nav-title {
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.title-gray {
+    color: #707070;
+}
+
+.playlist-nav {
+    padding: 20px 15px;
+}
+
+.play-title {
+    font-size: 15px;
+}
+
+.new-playlist {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.plus {
+    width: 40px;
+    height: 40px;
+    background-color: #A3A3A3;
+    color: #000;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.c-p-title {
+    font-size: 16px;
+}
+
+.play-list {
+    list-style-type: none;
+}
+
+.list-item {
+    color: #707070;
+    font-size: 14px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.profile-nav {
+    padding: 0 15px 20px 15px;
+}
+
+.download {
+    color: #707070;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.freccietta {
+    border-radius: 30px;
+    border: 2px solid #707070;
+    width: 20px;
+    height: 20px;
+    margin: 0 10px 0 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.profile {
+    display: flex;
+    width: 50px;
+    margin: 15px 0;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.profile-img {
+    width: 100%;
+    margin: 0 10px 0 0;
+    background-color: #A3A3A3;
+    border-radius: 30px;
+}
+
+.main-corp {
+    background-color: #141922;
+    height: 100vh;
+    overflow-y: scroll;
+    width: 80vw;
+    color: #fff;
+}
+
+.main-header {
+    width: 79vw;
+    height: 15vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #000;
+    opacity: 0.7;
+    text-align: right;
+    padding: 30px 20px;
+    margin-right: 15px;
+}
+
+.up-btn {
+    color: #fff;
+    border-radius: 30px;
+    border: #fff solid 2px;
+    background-color: #000;
+    cursor: pointer;
+    padding: 10px 40px;
+}
+
+.main-section {
+    margin-top: 150px;
+}
+
+.song-bar {
+    background-color: #282828;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
