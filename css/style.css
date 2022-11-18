@@ -37,7 +37,7 @@ body {
     align-items: center;
 }
 
-.select {
+.select-l {
     border-left: #ADFF2F solid 3px;
 }
 
@@ -62,7 +62,7 @@ body {
 }
 
 .playlist-nav {
-    padding: 20px 15px;
+    padding: 20px 15px 10px 15px;
 }
 
 .play-title {
@@ -170,8 +170,72 @@ body {
     padding: 10px 40px;
 }
 
-.main-section {
-    margin-top: 150px;
+.nav-section {
+    margin: 140px 20px 50px 20px;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: #707070;
+}
+
+.select-b {
+    border-bottom: #ADFF2F solid 3px;
+}
+
+.recently-p {
+    margin: 0 20px 50px 20px;
+}
+
+.section-title {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.all-song {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.song {
+    flex-basis: calc(100% / 6);
+    width: 150px;
+    text-align: center;
+}
+
+.cover {
+    max-width: 100%;
+}
+
+.song-title {
+    font-size: 17px;
+    font-weight: 900;
+    margin: 8px 0;
+}
+
+.subtitle {
+    font-size: 12px;
+    font-weight: 300;
+    color: #707070;
+    margin: 16px 0 0 0;
+}
+
+.advice {
+    margin: 0 20px 50px 20px;
+}
+
+.popular {
+    margin: 0 20px 100px 20px;
 }
 
 .song-bar {
