@@ -25,6 +25,7 @@ body {
 
 .logo-name {
     padding: 15px 10px;
+    cursor: pointer;
 }
 
 .opt-nav {
