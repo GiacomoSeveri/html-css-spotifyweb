@@ -216,12 +216,14 @@ a {
 }
 
 .cover {
+    cursor: pointer;
     max-width: 100%;
 }
 
 .song-title {
     font-size: 17px;
     font-weight: 900;
+    cursor: pointer;
     margin: 8px 0;
 }
 
@@ -229,6 +231,7 @@ a {
     font-size: 12px;
     font-weight: 300;
     color: #707070;
+    cursor: pointer;
     margin: 16px 0 0 0;
 }
 
@@ -243,6 +246,7 @@ a {
 .popular-c {
     max-width: 100%;
     border-radius: 50%;
+    cursor: pointer;
     object-fit: cover;
 }
 
