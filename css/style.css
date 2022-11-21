@@ -228,6 +228,7 @@ a {
     font-weight: 900;
     cursor: context-menu;
     margin: 8px 0;
+    cursor: pointer;
 }
 
 .subtitle {
