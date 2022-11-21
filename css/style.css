@@ -29,6 +29,10 @@ body {
     cursor: pointer;
 }
 
+.mini-logo {
+    display: none;
+}
+
 .opt-nav {
     padding: 20px 15px 20px 0;
 }
@@ -116,7 +120,7 @@ body {
     font-size: 12px;
     display: flex;
     align-items: center;
-    margin: 15px 0;
+    margin: 8px 0;
 }
 
 .freccietta {
@@ -135,6 +139,7 @@ body {
     margin: 3px 0 0 0;
     font-weight: 800;
     cursor: pointer;
+    margin: 15px 0;
 }
 
 .profile-img {
@@ -162,7 +167,7 @@ body {
     opacity: 0.7;
     text-align: right;
     padding: 30px 20px;
-    margin-right: 15px;
+    margin-right: 18px;
 }
 
 .up-btn {
@@ -368,6 +373,22 @@ a {
     cursor: pointer;
 }
 
+@media screen and (min-height: 1095px) {
+
+    .main-header {
+        width: 76vw;
+        margin-right: 0;
+    }
+
+    .playlist-nav {
+        margin-bottom: 280px;
+    }
+
+    .nav-section {
+        margin: 175px 20px 50px 20px
+    }
+
+}
 
 /* 1024px */
 
@@ -385,7 +406,7 @@ a {
 
     .playlist-nav {
         padding: 20px 15px 1px 15px;
-        margin-bottom: 390px;
+        margin-bottom: 320px;
     }
 
     .nav-section {
@@ -415,7 +436,7 @@ a {
 
     .playlist-nav {
         padding: 20px 15px 1px 15px;
-        margin-bottom: 350px;
+        margin-bottom: 290px;
     }
 
     .all-song {
@@ -471,6 +492,10 @@ a {
         margin: 10px 0 0 0; 
     }
 
+    .up-btn {
+        margin: 30px 0;
+    }
+
     .main-nav {
         flex-wrap: wrap;
         text-align: center;
@@ -488,3 +513,81 @@ a {
         width: 240px;
     }
 }
+
+
+/* 552px */
+
+
+@media screen and (max-width: 552px) {
+
+    .none {
+        display: none;
+    }
+
+    .side-nav {
+        width: 70px;
+    }
+
+    .mini-logo {
+        display: block;
+        width: 50px;
+    }
+
+    .nav-img {
+        width: 60px;
+    }
+
+    .opt-nav {
+        padding: 20px 5px;
+    }
+
+    .select-l {
+        border: none;
+    }
+
+    .profile-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .freccietta {
+        margin: 500px 5px 0px 5px;
+    }
+
+    .profile-img {
+        margin: 0;
+    }
+
+    .main-header {
+        width: 88vw;
+    }
+
+    .up-btn {
+        margin: 30px 0;
+    }
+
+    .main-corp {
+        width: 89vw;
+    }
+
+    .subtitle {
+        10px
+    }
+
+    .cover {
+        max-width: 190px;
+    }
+
+    .opt {
+        width: 165px;
+    }
+
+    .time {
+        width: 155px;
+    }
+
+}
+
+
