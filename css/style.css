@@ -456,6 +456,35 @@ a {
         width: 20%;
     }
 
+}
 
 
+/* 639px */
+
+
+@media screen and (max-width: 640px) {
+    .main-header {
+        width: 66vw;
+    }
+
+    .profile {
+        margin: 10px 0 0 0; 
+    }
+
+    .main-nav {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .song {
+        flex-basis: calc(100%/2);
+    }
+
+    .margin {
+        margin: 0;
+    }
+
+    .time {
+        width: 240px;
+    }
 }
