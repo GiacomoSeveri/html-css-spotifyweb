@@ -132,7 +132,7 @@ body {
 .profile {
     display: flex;
     width: 50px;
-    margin: 15px 0;
+    margin: 3px 0 0 0;
     font-weight: 800;
     cursor: pointer;
 }
@@ -269,7 +269,7 @@ a {
 
 .play-song {
     display: flex;
-    height: 60px;
+    height: 45px;
 }
 
 .footer-t-s {
@@ -384,7 +384,8 @@ a {
     }
 
     .playlist-nav {
-        padding: 10px 15px 1px 15px;
+        padding: 20px 15px 1px 15px;
+        margin-bottom: 390px;
     }
 
     .nav-section {
@@ -417,8 +418,21 @@ a {
         margin-bottom: 350px;
     }
 
+    .all-song {
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
     .song {
         flex-basis: calc(100%/4);
+    }
+
+    .cover {
+        max-width: 140px;
+    }
+
+    .margin {
+        margin: 0 10px;
     }
 
     .play-all {
