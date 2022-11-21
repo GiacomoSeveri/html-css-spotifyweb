@@ -417,6 +417,10 @@ a {
         margin-bottom: 350px;
     }
 
+    .song {
+        flex-basis: calc(100%/4);
+    }
+
     .play-all {
         width: 291px;
     }
