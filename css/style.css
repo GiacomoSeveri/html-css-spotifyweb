@@ -9,6 +9,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* main */
 
 .flex-main {
     display: flex;
@@ -17,7 +18,7 @@ body {
 }
 
 .side-nav {
-    width: 20vw;
+    width: 280px;
     height: 90vh;
     background-color: #000;
     color: #fff;
@@ -92,6 +93,7 @@ body {
 
 .c-p-title {
     font-size: 16px;
+    cursor: context-menu;
 }
 
 .play-list {
@@ -144,14 +146,14 @@ body {
 
 .main-corp {
     background-color: #141922;
-    height: 100vh;
+    height: calc(100vh - 10vh);
     overflow-y: scroll;
-    width: 80vw;
+    width: 82vw;
     color: #fff;
 }
 
 .main-header {
-    width: 79vw;
+    width: 81vw;
     height: 15vh;
     position: fixed;
     top: 0;
@@ -200,6 +202,7 @@ a {
 .section-title {
     font-size: 30px;
     font-weight: 900;
+    cursor: context-menu;
 }
 
 .all-song {
@@ -223,7 +226,7 @@ a {
 .song-title {
     font-size: 17px;
     font-weight: 900;
-    cursor: pointer;
+    cursor: context-menu;
     margin: 8px 0;
 }
 
@@ -240,7 +243,7 @@ a {
 }
 
 .popular {
-    margin: 0 20px 100px 20px;
+    margin: 0 20px 50px 20px;
 }
 
 .popular-c {
@@ -250,11 +253,10 @@ a {
     object-fit: cover;
 }
 
+/* footer */
+
 .song-bar {
     background-color: #282828;
     height: 10vh;
     width: 100%;
-    position: fixed;
-    bottom: 0;
-    right: 0;
 }
