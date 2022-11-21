@@ -387,6 +387,10 @@ a {
         padding: 10px 15px 1px 15px;
     }
 
+    .nav-section {
+        margin: 185px 20px 50px 20px;
+    }
+
     .play-song {
         height: 50px;
     }
@@ -395,3 +399,45 @@ a {
 
 
 /* 878px */
+
+
+@media screen and (max-width: 879px) {
+
+    .main-header {
+        width: 72vw;
+        margin-right: 0;
+    }
+
+    .opt-nav {
+        padding: 20px 15px 20px 0;
+    }
+
+    .playlist-nav {
+        padding: 20px 15px 1px 15px;
+        margin-bottom: 350px;
+    }
+
+    .play-all {
+        width: 291px;
+    }
+
+    .opt-song {
+        margin: 0 20px;
+    }
+
+    .footer-icons {
+        margin-left: 0px;
+        letter-spacing: -10px;
+    }
+
+    .other-opt {
+        width: 215px;
+    }
+
+    .bar-volume-now {
+        width: 20%;
+    }
+
+
+
+}
