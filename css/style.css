@@ -367,3 +367,31 @@ a {
     left: 109px;
     cursor: pointer;
 }
+
+
+/* 1024px */
+
+
+@media screen and (max-width: 1024px) {
+    
+    .main-header {
+        width: 75vw;
+        margin-right: 0;
+    }
+
+    .opt-nav {
+        padding: 0;
+    }
+
+    .playlist-nav {
+        padding: 10px 15px 1px 15px;
+    }
+
+    .play-song {
+        height: 50px;
+    }
+
+}
+
+
+/* 878px */
