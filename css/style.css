@@ -210,7 +210,7 @@ body {
 }
 
 .up-btn:hover {
-    transform: scale(1.05);
+    transform: scale(1.1);
     text-shadow: 0 0 10px #fff;
 }
 
@@ -300,6 +300,10 @@ a:hover {
     color: #707070;
     cursor: pointer;
     margin: 16px 0 0 0;
+}
+
+.subtitle:hover {
+    text-decoration: underline;
 }
 
 .advice {
